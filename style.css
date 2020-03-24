@@ -1,0 +1,76 @@
+body{
+    background: #579b98;
+    font-family: "Montserrat", "Avenir";
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    background: steelblue;
+    margin: 0;
+    font-weight: normal;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+#RGB{
+    font-size: 200%;
+}
+
+.square{
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+}
+
+#container{
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+#headButton{
+    text-align: center;
+    background: white;
+    height: 30px;
+}
+
+.pickmode{
+    background: steelblue;
+    color: white;
+}
+
+button{
+    color: steelblue;
+    font-weight: 700;
+    border: 0;
+    background: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: inherit;
+    height: 100%;
+    transition: all .3s;
+    -webkit-: all .3s;
+    -moz-: all .3s;
+    outline: none;
+}
+button:hover{
+    background: steelblue;
+    color: white;    
+}
+#Message{
+    font-weight: 700;
+    display: inline-block;
+    width: 20%;
+    letter-spacing: 1px;
+    font-size: inherit;
+    color: black;
+}
+
+.square{
+    border-radius: 50%;
+    transition: background .6s;
+    -webkit-: background .6s;
+    -moz-: background .6s;
+}
